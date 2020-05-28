@@ -1,2 +1,3 @@
 # Regularized-pooling
-Regularized pooling, in ICANN 2020
+by Takato Otsuzuki, Hideaki Hayashi, Yuchen Zheng, Seiichi Uchida
+## Approach
