@@ -6,8 +6,10 @@ by Takato Otsuzuki, Hideaki Hayashi, Yuchen Zheng, Seiichi Uchida.
 
 ## Approach
 [](![](./figures/RegularizedPoolingWithEquation.jpg))
+<pre>
 <img src=./figures/figure2-7.jpg width="460px"> | <img src=./figures/RegularizedPoolingWithEquation.jpg width="400px">
-Fig.1 (a) Max pooling and (b) our regularized pooling.         Fig.2  Overview of the regularized pooling operation
+Fig.1 (a) Max pooling and (b) our regularized pooling.      Fig.2  Overview of the regularized pooling operation
+</pre>
 [](<div align="center">
 <img src=./figures/figure2-7.jpg width="540px" alt="属性" title="Overview of the regularized pooling operation">
   
