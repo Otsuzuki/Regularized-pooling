@@ -5,4 +5,4 @@ by Takato Otsuzuki, Hideaki Hayashi, Yuchen Zheng, Seiichi Uchida.
 [[Paper]](https://arxiv.org/abs/2005.03709)
 
 ## Approach
-![](./figures/RegularizedPoolingWithEquation.eps)
+![](./RegularizedPoolingWithEquation.jpg)
