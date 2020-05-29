@@ -12,5 +12,6 @@ by Takato Otsuzuki, Hideaki Hayashi, Yuchen Zheng, Seiichi Uchida.
 
 ## Prerequisites
 * [python >= 3.7](https://www.python.org/)
+* pytorch >= 1.3
 * [ubuntu 18.04](https://ubuntu.com/)
 * CPU or GPU(NVIDIA Driver >= 430)
