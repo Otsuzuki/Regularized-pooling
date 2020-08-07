@@ -20,8 +20,7 @@ import torch.utils.data as data
 
 batch_size, n_classes, epochs, image_width, learning_rate, pool_kernel, pool_stride, output_width, smooth_kernel, smooth_padding, device = parameter()
 
-dir = './path'
-FolderName = dir + "./Folder/"
+FolderName = "./Folder/"
 if not os.path.exists(FolderName):
     os.mkdir(FolderName)
 
@@ -116,15 +115,15 @@ if __name__ == "__main__":
         print("Val Acc : %.4f" % v_acc)
 
     # Record loss and accuracy in CSV file
-    with open(dir + "/Folder/Regularized_acc.csv", 'a') as f:
+    with open(FolderName + "/Regularized_acc.csv", 'a') as f:
         writer = csv.writer(f)
         writer.writerow(avg_valid_acc)
-    with open(dir + "/Folder/Regularized_trainloss.csv", 'a') as f:
+    with open(FolderName + "/Regularized_trainloss.csv", 'a') as f:
         writer = csv.writer(f)
         writer.writerow(avg_train_loss)
-    with open(dir + "/Folder/Regularized_validloss.csv", 'a') as f:
+    with open(FolderName + "/Regularized_validloss.csv", 'a') as f:
         writer = csv.writer(f)
         writer.writerow(avg_valid_loss)
 
     # Plot loss
-    Loss(avg_train_loss, avg_valid_loss, FolderName)
+    Loss(avg_valid_acc, avg_train_loss, avg_valid_loss, FolderName)
