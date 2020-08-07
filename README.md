@@ -8,7 +8,7 @@ by Takato Otsuzuki, Hideaki Hayashi, Yuchen Zheng, Seiichi Uchida.
 [](![](./figures/RegularizedPoolingWithEquation.jpg))
 
 <img src=./figures/figure2-7.jpg width="460px"> | <img src=./figures/RegularizedPoolingWithEquation.jpg width="400px">
-&emsp; &emsp; &emsp; Fig.1 (a) Max pooling and (b) our regularized pooling.  &emsp; &emsp; &emsp; Fig.2  Overview of the regularized pooling operation.
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Fig.1 (a) Max pooling and (b) our regularized pooling.  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Fig.2  Overview of the regularized pooling operation. 
 
 ## Prerequisites
 * [python >= 3.7](https://www.python.org/)
